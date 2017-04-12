@@ -75,7 +75,7 @@ class LoginController extends Controller {
 	 * @param Manager $twoFactorManager
 	 * @param Throttler $throttler
 	 */
-	function __construct($appName,
+	public function __construct($appName,
 						 IRequest $request,
 						 IUserManager $userManager,
 						 IConfig $config,
